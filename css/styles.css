@@ -290,8 +290,9 @@ body{
   }
   
   #produtos img{
-    width: 400px;
+    width: 100%;
     height: 400px;
+    display: block;
     
   }
 
@@ -408,7 +409,6 @@ body{
       width: 220px;
       height: 220px;
       margin-bottom: 2em;
-      
     }
 
     .area-texto{
