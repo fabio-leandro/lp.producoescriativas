@@ -50,11 +50,12 @@
           aria-controls="navbar-items"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onclick="mostrar()"
         >
           <i class="bi bi-list"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbar-items">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" onclick="esconder()">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#corporativo">Corporativo</a>
             </li>
@@ -346,5 +347,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="scripties/script.js"></script>
   </body>
 </html>
