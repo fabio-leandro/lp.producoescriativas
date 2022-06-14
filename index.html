@@ -50,23 +50,22 @@
           aria-controls="navbar-items"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          onclick="mostrar()"
         >
           <i class="bi bi-list"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbar-items">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" onclick="esconder()">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#corporativo">Corporativo</a>
+              <a class="nav-link" aria-current="page" href="#corporativo" onclick="esconder()" onmouseleave="mostrar()">Corporativo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#clientes">Clientes</a>
+              <a class="nav-link" href="#clientes" onclick="esconder()" onmouseleave="mostrar()">Clientes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#espetaculos-teatrais">Espetáculos</a>
+              <a class="nav-link" href="#espetaculos-teatrais" onclick="esconder()" onmouseleave="mostrar()">Espetáculos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contato</a>
+              <a class="nav-link" href="#footer" onclick="esconder()" onmouseleave="mostrar()">Contato</a>
             </li>
           </ul>
         </div>
